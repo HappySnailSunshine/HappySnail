@@ -1,0 +1,37 @@
+# npm
+package-lock.json
+node_modules
+yarn-error.log
+
+# vscode
+.vscode
+
+#yarn
+yarn.lock
+
+# vuepress
+docs/.vuepress/dist
+node_mondules/
+
+# mac
+.DS_Store
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+## svn
+.svn/
+## other
+.apt_*/
