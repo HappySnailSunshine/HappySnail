@@ -5,6 +5,7 @@ set -e
 
 # 生成静态文件
 npm run build
+echo 生成静态文件完成
 
 # 进入生成的文件夹
 cd .site
@@ -16,7 +17,11 @@ git config --global user.email "1367623781@qq.com"
 git init
 git add -A
 git commit -m 'deploy'
-git push origin gh-pages # 发布到github
+#git push origin gh-pages # 发布到github
+
+git push -f https://github.com/HappySnailSunshine/HappySnail.git master:gh-pages
+
+echo 提交github gh-pages分支完成
 
 #删除文件
 cd ..
